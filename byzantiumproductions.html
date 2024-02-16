@@ -11,8 +11,8 @@
         <div class="navbar">
             <img src="sodapdf-converted_white.png" class="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">The Work</a></li>
+                <li><a href="#">The Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
@@ -25,5 +25,84 @@
             <button type="button"><span></span>APPLY NOW</button>
         </div>
     </div>
+    <section>
+        <h1>THE WORK</h1>
+        
+    </section>
+    <div class="scroll-icon" onclick="scrollDown()">
+        <img src="down-arrow.png" alt="Scroll Down Icon">
+        <script>
+        function scrollDown() { // Get the height of the viewport
+  const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0); // Calculate the target position (e.g., scroll to the next section)
+  const targetPosition = viewportHeight; // Adjust as needed // Smoothly scroll to the target position
+    window.scrollTo({
+    top: targetPosition,
+    behavior: 'smooth' // Smooth scrolling
+        });
+        }
+        </script>
+    </div>
+<section>
+    <div class="trailer-section">
+        <h2>
+         LATEST TRAILERS
+        </h2>
+        <div class="trailer-container">
+            <!-- First trailer -->
+            <div class="trailer-content">
+             <div class="trailer-bg">
+           <img src="HAV_2.png" alt="Movie Poster for White Linen by Contantine Noble" class="trailer-img">
+           <div class="trailer-content-style">
+           </div>
+           <h3>
+            WHITE LINEN - by Constantine Noble
+           </h3>
+           <p>
+            The Danish feature Paranoia, based on Birgitte Lorentzen's book "Cykose", just premiered in national cinemas.
+           </p>
+           <a href="#" class="trailer-link-style">
+            READ MORE
+           </a>
+          </div>
+         </div>
+         <!-- Second trailer -->
+         <div class="trailer-content">
+          <div class="trailer-bg">
+           <img src="the-beatst.png" alt="A man getting his skull crushed by a demon" class="trailer-img">
+           <div class="trailer-content-style">
+           </div>
+           <h3>
+            THE BEAST WILL KILL US ALL
+           </h3>
+           <p>
+            Awardwinning Danish/English feature film, released on Netlfix 2025.
+           </p>
+           <a href="#" class="trailer-link-style">
+            READ MORE
+           </a>
+          </div>
+         </div>
+         <!-- Third trailer -->
+         <div class="trailer-content">
+            <div class="trailer-bg">
+           <img src="Hav_1.png" alt="Movie Poster from the film HAV" class="trailer-img">
+           <div class="trailer-content-style">
+    
+           </div>
+           <h3>
+            HAV
+           </h3>
+           <p>
+            The film premiered in Danish cinemas on October 9, 2023.
+           </p>
+           <a href="#" class="trailer-link-style">
+            READ MORE
+           </a>
+          </div>
+         </div>
+        </div>
+    </div>
+
+</section>
 </body>
 </html>
